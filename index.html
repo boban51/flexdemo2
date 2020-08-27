@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="father">
+        <div class="child">child</div>
+    </div>
+    <style>
+        .father {
+            display: flex;
+            /*声明我是flex容器，使用flex布局*/
+            align-items: center;
+            /*我的孩子要垂直居中*/
+            justify-content: center;
+            /*我里面的内容要水平居中*/
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .child {
+            width: 50%;
+            padding: 10px;
+            background: #fff;
+        }
+    </style>
+</body>
+
+</html>
